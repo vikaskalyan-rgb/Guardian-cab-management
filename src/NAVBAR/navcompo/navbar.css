@@ -1,0 +1,47 @@
+.emp-nav, .admin-nav, .home-nav,.feed-nav{
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+}
+.about-nav{
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    top: 0;
+    background-color: rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+
+}
+.logo{
+    padding: 10px;
+}
+.logo-name h2{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 20px;
+}
+.nav-link li{
+    display: inline-block;
+    color:rgb(78, 194, 136);
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.nav-link a{
+    font-size:15px;
+    color:rgb(78, 194, 136);
+    text-decoration:none;
+    cursor: pointer;
+}
+.nav-link a:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
